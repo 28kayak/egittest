@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class test
 {
 
@@ -7,6 +7,10 @@ public class test
 		System.out.println("hello world");
 		System.out.println("this is 28kayak");
 		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("waht is your name??");
+		String userName = scan.nextLine();
+		System.out.println(userName);
 		
 
 	}
