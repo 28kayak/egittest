@@ -10,7 +10,8 @@ public class test
 		Scanner scan = new Scanner(System.in);
 		System.out.println("waht is your name??");
 		String userName = scan.nextLine();
-		System.out.println(userName);
+		System.out.println("welcome" + userName);
+		
 		
 
 	}
