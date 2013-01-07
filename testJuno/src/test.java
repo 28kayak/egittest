@@ -12,7 +12,7 @@ public class test
 		String userName = scan.nextLine();
 		System.out.println("welcome" + userName);
 		
-		
+		scan.close();//why do we need to close scan unlike previous apps?? 
 
 	}
 
